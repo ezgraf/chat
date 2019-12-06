@@ -1,2 +1,2 @@
 # chat
-chat system for Inbenta
+Building a chat system built on php, mysql and vue.js
