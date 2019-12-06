@@ -1,0 +1,17 @@
+/* COLORS */
+$main-color :#FF4D4D;
+$main-lighten : lighten($main-color, 20%);
+$main-darken : darken($main-color, 20%);
+
+
+/* ANIMATIONS */
+$ease-in : cubic-bezier(0.3, 0, 0, 1);
+$ease-out : cubic-bezier(0, 0, 0.3, 1);
+$ease-in-out : cubic-bezier(0.3, 0, 0.3, 1);
+$ease:$ease-in-out;
+
+
+/* ECART ET TAILLES */
+$gap : 6px;
+$pin-size:72px;
+$border-radius:3px;

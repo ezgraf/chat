@@ -1,0 +1,20 @@
+{
+  "name": "anychat",
+  "version": "0.0.1",
+  "description": "app front pour un chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:scss": "node-sass -w --output-style=expanded scss/ -o public/css/",
+    "watch": "concurrently \"echo watching scss\"  \"postcss public/css/*.css -u autoprefixer -d public/css -w\"  \"node-sass -w --output-style=expanded scss/ -o public/css/\" ",
+    "build": "node-sass --output-style=compressed scss/ -o public/css/ && postcss public/css/*.css --no-map -u autoprefixer -d public/css"
+  },
+  "author": "Pierre Bonnin",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.7.2",
+    "node-sass": "^4.13.0",
+    "normalize.css": "^8.0.1",
+    "postcss-cli": "^6.1.3"
+  }
+}
