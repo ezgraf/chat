@@ -30,10 +30,16 @@ main{
 	
 	h1{
 		font-size:100px;
+		@media screen and (max-width:768px){
+			font-size:50px;
+		}
 	}
 	
 	h2{
 		font-size:50px;
+		@media screen and (max-width:768px){
+			font-size:25px;
+		}
 	}
 
 }

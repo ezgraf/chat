@@ -12,6 +12,9 @@
 <html>
     <head>
         <title>Anychat Signin / Signup</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <meta name="robots" content="noindex">
+
         <link rel="stylesheet" type="text/css" href="public/css/style.css" />
 
         <script src="public/js/sha256.min.js"></script>
